@@ -4,7 +4,7 @@ cask "deskcloset" do
 
   url "https://downloads.deskcloset.com/DeskCloset-#{version}.dmg"
   name "DeskCloset"
-  desc "Organizes, de-duplicates and backs up the files on your Mac"
+  desc "Files documents into folders, finds duplicates and tracks expiry dates"
   homepage "https://deskcloset.com/"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "deskcloset" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "DeskCloset.app"
   binary "#{appdir}/DeskCloset.app/Contents/Resources/deskcloset"
