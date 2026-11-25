@@ -1,6 +1,6 @@
 cask "deskcloset" do
-  version "0.9.0-beta.9"
-  sha256 "f6451864807cdd23728db64ec4bccfcc1ec377f9b44743b7bdedf62532b3e61b"
+  version "0.9.0-beta.10"
+  sha256 "20743d7289f82ee5b0ec674db908bdb63c41630a6c7b11e237bbb28975cbd868"
 
   url "https://downloads.deskcloset.com/DeskCloset-#{version}.dmg"
   name "DeskCloset"
